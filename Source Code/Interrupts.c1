@@ -1,0 +1,45 @@
+/*******************************************************************************
+* Title: Ext_Interrupts.c                                                      *
+* Version: 1.0                                                                 *
+* Author: Jeff Nybo                                                            *
+* Date: November 13, 2010                                                      *
+*                                                                              *
+* Description:                                                                 *
+* This file contains the functions that are used to control the operation of   *
+* the external interrupts. According to the settings chosen by the user, each  *
+* function will set up the specified external interrupt as required.           *
+*******************************************************************************/
+
+/*******************************************************************************
+* Function: INT0_Init(byte setup)                                              * 
+*                                                                              *
+* Variables:                                                                   *
+* setup -> Stores the setup values for INT0                                    *
+*                                                                              *
+* Description:                                                                 *
+* This function will initialize External INT0 for proper operation. INT0 is    *
+* always a high priority interrupt.                                            *
+*******************************************************************************/
+void INT1_Init(void)
+{ 
+  RPINR0 = 0x0A00;        //Set RP10 to External INT1
+  INTCON2 = 0x0000;       //Setup INT0, INT1, INT2, interupt on falling edge
+  IFS1bits.INT1IF = 0;    //Reset INT1 interrupt flag 
+  IEC1bits.INT1IE = 1;    //Enable INT1 Interrupt Service Routine 
+  IPC5bits.INT1IP = 1;	  //set low priority
+}
+
+/*******************************************************************************
+* Function:                                                                    * 
+*                                                                              *
+* Variables:                                                                   *
+*                                                                              *
+*                                                                              *
+* Description:                                                                 *
+*                                                                              *
+*                                                                              *
+*******************************************************************************/
+void UART1_Init(void)
+{ 
+  
+}

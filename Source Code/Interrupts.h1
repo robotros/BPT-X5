@@ -1,0 +1,28 @@
+/*******************************************************************************
+* Title: Ext_Interrupts.h                                                      *
+* Version: 1.0                                                                 *
+* Author: Jeff Nybo                                                            *
+* Date: November 13, 2010                                                      *
+*                                                                              *
+* Description:                                                                 *
+* This file contains all the function prototypes and constants that are used   *
+* for controlling the correct operation of the External Interrupts.            *
+*******************************************************************************/
+
+/*************************************************
+*                  Constants                     *
+*************************************************/ 
+
+//============= EXT_INT0 =============//
+/******* INT0 Interrupt Enable *******/
+
+/*************************************************
+*                   Macros                       *
+*************************************************/     
+
+/*************************************************
+*              Function Prototypes               *
+*************************************************/   
+void INT1_Init(void);
+void UART1_Init(void);
+
