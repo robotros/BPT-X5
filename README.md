@@ -1,6 +1,4 @@
 **Table of Contents** 
-
-- [PROJECT 4](#project-4)
 	- [Interactive LED Beer Pong Table](#interactive-lED-beer-pong-table)
 		- [Description](#description)
 		- [What is Included](#what-is-included)
