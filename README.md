@@ -4,7 +4,7 @@
 	• [Description](#description)
 	• [What is Included](#what-is-included)
 	• [Dependencies](#dependencies)
-	• [Quickstart](#quickstart)
+	• [Quickstart](#quickstart)•
 
 
 
