@@ -9,7 +9,7 @@
 
 
 # **Interactive LED Beer Pong Table**
-## Tournament Results
+## BPT X5
 
 ### Description
 
