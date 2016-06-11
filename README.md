@@ -1,10 +1,10 @@
 **Table of Contents** 
-	- [Interactive LED Beer Pong Table](#interactive-lED-beer-pong-table)
-		- [Description](#description)
-		- [What is Included](#what-is-included)
-		- [Dependencies](#dependencies)
-		- [Quickstart](#quickstart)
-		- [Footnotes](#footnotes)
+• [Interactive LED Beer Pong Table](#interactive-lED-beer-pong-table)
+	• [Description](#description)
+	• [What is Included](#what-is-included)
+	• [Dependencies](#dependencies)
+	• [Quickstart](#quickstart)
+	• [Footnotes](#footnotes)
 
 
 # **Interactive LED Beer Pong Table**
