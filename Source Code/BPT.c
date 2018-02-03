@@ -170,14 +170,15 @@ int main(void)
 	    {
 		    //Cycle through each features animations
 	      Cycle_Grid_Animations();
-				Cycle_Pod_Animations();
+		  Cycle_Pod_Animations();
 	      Cycle_Ring_Animations();
 	    }
 	    
 	    else if (VU_Meter == 1)
 	    {
-		    Scoreboard(IR_sensors);
-        Cycle_Pod_Animations_Sense();
+	    	Scrolling_Arrows_On_Detection();
+		   //Scoreboard(IR_sensors);
+        	Cycle_Pod_Animations_Sense();
 		    Cycle_Ring_Animations();
 		  } 
 	    

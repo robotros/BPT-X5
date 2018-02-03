@@ -339,7 +339,8 @@ void Scrolling_Arrows_On_Detection(void)
     
     //There was no change in the pods detection states, continue original animation  
     else
-    	Pong_Animation();
+    	//Pong_Animation();
+      Scoreboard(IR_sensors)
   }
   
   //A 'detected cup removal' animation has not finished yet. Allow it to finish
@@ -1010,7 +1011,7 @@ UINT8 Cycle_Grid_Animations(void)
       //interrupt delay check to move on to the next animation until we 
       //know that all of the text is off of the grid.        
       case 3: 
-      				Set_Scrolling_Text("CHEXAL BEER PONG TABLES");
+      				Set_Scrolling_Text("ROBOTROS TECHNOLOGIES");
       				
       				//If text has finished scrolling, reset scroll flag and set
       				//delay equal to 1 so that the Time_Check(a,b) below advances to 
